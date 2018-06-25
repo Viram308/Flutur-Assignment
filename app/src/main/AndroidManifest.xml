@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.viram.assignment">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/j"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:label="Select Activity"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".keyboard"
+            android:label="Keyboard"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".imageposition"
+            android:label="Image Position"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
